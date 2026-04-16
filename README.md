@@ -18,13 +18,13 @@ chmod +x build.sh
 ```
 
 ## Running the App
-Once compiled, you will see a `Captions.app` bundle generated in the root directory.
+Once compiled, you will see a `Myrics.app` bundle generated in the root directory.
 
 You can run it directly from your terminal:
 ```bash
-open Captions.app
+open Myrics.app
 ```
-Or you can navigate to the folder in Finder and double-click `Captions.app`.
+Or you can navigate to the folder in Finder and double-click `Myrics.app`.
 
 *(Note: If macOS prevents the app from running because it's from an "unidentified developer", you can Right-Click the app in Finder, click "Open", and then confirm you want to open it.)*
 
