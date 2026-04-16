@@ -35,16 +35,27 @@ Or you can navigate to the folder in Finder and double-click `Captions.app`.
 - `build.sh` is used to create the `.app` bundle and compile the `.swift` files into an executable binary using `swiftc`.
 
 --- Features to be implemented in v0.1 ---
+
 >> create a one time window while installation to drag the application to applications folder
+
 >> backwards compatibility ( to older versions of macOS like catalina)
+
 >> minor improvements to improve user experience
+
 >> have memory of it's position in each desktop
+
 >> close it in the individual desktop ( not everywhere)
+
 >> pop down UI window improvements
 
+=============================================
 --- Features to be implemented in v0.2 ---
+
 >> make it more lightweight
+
 >> supports apple music
+
+=============================================
 
 -- Features to be implemented in v0.3 ---
 >> introduce this for MacBooks with the display notch.
