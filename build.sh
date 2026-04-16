@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-APP_NAME="Captions"
+APP_NAME="Myrics"
 APP_DIR="${APP_NAME}.app"
 CONTENTS_DIR="${APP_DIR}/Contents"
 MAC_OS_DIR="${CONTENTS_DIR}/MacOS"
@@ -21,11 +21,11 @@ cat <<EOF > "${CONTENTS_DIR}/Info.plist"
 <plist version="1.0">
 <dict>
     <key>CFBundleExecutable</key>
-    <string>Captions</string>
+    <string>Myrics</string>
     <key>CFBundleIdentifier</key>
-    <string>com.tamohar.captions</string>
+    <string>com.tamohar.Myrics</string>
     <key>CFBundleName</key>
-    <string>Captions</string>
+    <string>Myrics</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
@@ -35,14 +35,14 @@ cat <<EOF > "${CONTENTS_DIR}/Info.plist"
     <key>LSUIElement</key>
     <true/>
     <key>NSAppleEventsUsageDescription</key>
-    <string>Captions requires access to Spotify to retrieve playback status.</string>
+    <string>Myrics requires access to Spotify to retrieve playback status.</string>
 </dict>
 </plist>
 EOF
 
 # Compile
 echo "Compiling swift files..."
-swiftc -framework AppKit src/*.swift -o "${MAC_OS_DIR}/Captions"
+swiftc -framework AppKit src/*.swift -o "${MAC_OS_DIR}/Myrics"
 
 if [ $? -eq 0 ]; then
     echo "Successfully built ${APP_NAME}.app!"
