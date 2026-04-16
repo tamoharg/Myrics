@@ -3,9 +3,12 @@
 A macOS menu bar application that displays the current playing song from Spotify along with its lyrics. It lives right in your menu bar and has a beautiful, native-looking interface.
 
 ## Prerequisites
-- macOS
-- Spotify Desktop Application must be running
+- macOS Tahoe (26.1) and above
+- MacBook without the display notch - models introduced before october 2021.
+- Spotify Desktop Application or web app must be running
 
+## Directly download the Application 
+Click on this  link
 ## Compilation
 This project uses a custom compilation script instead of Xcode to remain lightweight. To build the project, run:
 
@@ -30,3 +33,18 @@ Or you can navigate to the folder in Finder and double-click `Captions.app`.
 - `SpotifyPoller.swift` interfaces with Spotify to fetch the current track and playback state using AppleScript.
 - `Controller.swift` and `Overlay.swift` manage the Menu Bar and floating window logic.
 - `build.sh` is used to create the `.app` bundle and compile the `.swift` files into an executable binary using `swiftc`.
+
+--- Features to be implemented in v0.1 ---
+>> create a one time window while installation to drag the application to applications folder
+>> backwards compatibility ( to older versions of macOS like catalina)
+>> minor improvements to improve user experience
+>> have memory of it's position in each desktop
+>> close it in the individual desktop ( not everywhere)
+>> pop down UI window improvements
+
+--- Features to be implemented in v0.2 ---
+>> make it more lightweight
+>> supports apple music
+
+-- Features to be implemented in v0.3 ---
+>> introduce this for MacBooks with the display notch.
