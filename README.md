@@ -48,14 +48,12 @@ Or you can navigate to the folder in Finder and double-click `Captions.app`.
 
 >> pop down UI window improvements
 
-=============================================
 --- Features to be implemented in v0.2 ---
 
 >> make it more lightweight
 
 >> supports apple music
 
-=============================================
-
 -- Features to be implemented in v0.3 ---
+
 >> introduce this for MacBooks with the display notch.
